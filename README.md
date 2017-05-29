@@ -58,7 +58,7 @@ var result1 = engine.ExecuteQuery(@"
         MakeMeDouble(10) AS [ResultB],
         MakeMeDouble(MakeMeDouble(20)) AS [ResultC]");
 
-// Query engine (with SQLite parser for more powerful queries)
+// Query engine (with SQLite internal parser for more powerful queries)
 var result2 = engine.QueryInternal(@"
       SELECT ((ResultA - ResultB) * ResultC) AS [ComputedResult]
       FROM
