@@ -1,4 +1,4 @@
-# Wasabi DataParser [![NuGet Version](http://wasabi.dataparser.web.local/NugetVersion.svg)](https://www.nuget.org/packages/Nancy/)
+# Wasabi DataParser
 Wasabi DataParser is a dynamic and extensible SQL query engine for .NET and Mono. It allows to seamlessly query programmatically defined data sources. In other words: **query anything**!
 
 We all love SQL right? This is a new cool way to use it!
@@ -108,6 +108,7 @@ There are many ways you can contribute to Wasabi DataParser. Like most open-sour
 
 * [C#-SQLite](https://code.google.com/archive/p/csharp-sqlite/) is an independent reimplementation of the SQLite software library by Noah B Hart. Sources of this project are an important part of the core library.
 * [Irony](https://irony.codeplex.com/), a .NET language implementation kit.
+* And many others
 
 ## Copyright
 
